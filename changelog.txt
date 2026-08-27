@@ -1,0 +1,396 @@
+v.3.3
+--------
+* Fixed Media Tools FFmpeg CORS/WASM Restrictions (Migrated processing assets locally).
+* Fixed Google AdSense Blocking on Media Tools (Implemented Credentialless COEP).
+* Fixed PNG to ICO Generator Drag-and-Drop Upload Failures.
+* Fixed Text-to-Speech Tool Silent API Failures (Audio Buffer Return Issue).
+* Enhanced Homepage SEO & Hero Text (Added dynamic titles to Filament General Settings).
+
+v.3.2
+--------
+* Fixed Hardcoded Tool Header Render Bug.
+* Fixed Document Converter Livewire $errors Property Collision.
+* Fixed Writable Temp Paths for Document Converters on Windows.
+* Fixed Logo Preservation in Admin General Settings.
+* Fixed Livewire CSRF Token Expiration (419 Error).
+* Fixed Livewire File Uploads on Windows via Custom Controller.
+* Fixed reCAPTCHA Dual-Injection & Lock Page Loops.
+* Fixed Alpine.js Loading State Request Lockups.
+* Revamped IP to Hostname (Migrated to Livewire with Authoritative DNS & Geolocation).
+* Revamped YouTube Thumbnail Downloader (Migrated to Client-Side Alpine.js).
+* Revamped Keyword Cloud & Keyword Density Tools (Improved Parser & Readability Engine).
+* Enhanced Metadata (EXIF) Remover (Added GIF, BMP, AVIF & Warning Prevention).
+* Enhanced Domain/IP Utility Tools (Added Validation, URL Cleaning & Timeout Gates).
+* Enhanced Dark Mode Contrast & Premium Styling Platform-Wide.
+* Added: Htaccess to Nginx Converter.
+* Added: Nginx to Htaccess Converter.
+* Added: HTTP-auth Generator.
+* Added: Sitemap Generator.
+* Added: Microdata to JSON-LD Converter.
+* Added: Image Upscaler (AI-Powered).
+* Added: QR Code Editor.
+
+v.3.1
+--------
+* Fixed CORS issue in Media Tools
+
+v.3.0
+--------
+* Fixed QR Code Download Route Collision.
+* Fixed ReCAPTCHA Blinking on Livewire Updates.
+* Fixed Description Escaping Issues in Database Settings.
+* Fixed Category Typo ("Encodeing Tools").
+* Fixed TextCleaner Controller (Migrated to Alpine.js View).
+* Fixed Duplicate Route Names for Download Endpoints.
+* Revamped Fake Name Generator (Now Fake Identity Generator with CC, IBAN, SSN).
+* Revamped SVG to Image (Split into SVG to PNG, SVG to JPG, SVG to WebP, SVG to ICO).
+* Revamped ReCAPTCHA System (Hybrid Client + Server Gating).
+* Revamped All Tool Views to Standardized Blueprint.
+* Revamped Category Architecture (11 Restructured Categories).
+* Enhanced Security with Tool-Level ReCAPTCHA Unlock System.
+* Enhanced UX/UI with Premium Design Tokens & Custom SVG Icons.
+* Enhanced SEO with Premium-Grade Tool Descriptions via Migrations.
+* Enhanced Payment System with PayPal Integration.
+* Enhanced Social Login with Facebook OAuth Support.
+* Added: New Category — Media Tools.
+* Added: New Category — Document Converters.
+* Added: New Category — Developer & Data Tools.
+* Added: New Category — Calculators (Promoted from Fun & Utilities).
+* Added: Renamed Category — Security & Privacy Tools (was "Security").
+* Added: Video to GIF Converter.
+* Added: Video to MP3 Converter.
+* Added: Video Compressor.
+* Added: Audio Compressor.
+* Added: Video Converter.
+* Added: Audio Converter.
+* Added: Video to Audio Extractor.
+* Added: Video to WebP Converter.
+* Added: Video to APNG Converter.
+* Added: Video Trimmer.
+* Added: Video Muter.
+* Added: Video Speed Controller.
+* Added: Video Rotate & Flip.
+* Added: Audio Trimmer.
+* Added: Audio Merger.
+* Added: Video Merger.
+* Added: Video Watermarker.
+* Added: Screen Recorder.
+* Added: Audio Volume Booster.
+* Added: Hardcode Subtitles.
+* Added: PDF to Word Converter.
+* Added: Word to PDF Converter.
+* Added: PDF to Image Converter.
+* Added: Word to Image Converter.
+* Added: Word to HTML Converter.
+* Added: PDF to HTML Converter.
+* Added: PDF to EPUB Converter.
+* Added: EPUB to PDF Converter.
+* Added: EPUB to FB2 Converter.
+* Added: FB2 to EPUB Converter.
+* Added: FB2 to PDF Converter.
+* Added: PDF to FB2 Converter.
+* Added: Image Censor (Blur/Pixelate).
+* Added: Image Merger.
+* Added: Image Cropper.
+* Added: Image Filters.
+* Added: Image Adjustment.
+* Added: Meme Generator.
+* Added: Metadata & EXIF Remover.
+* Added: JFIF to PNG Converter.
+* Added: JFIF to WebP Converter.
+* Added: ICO to PNG Converter.
+* Added: PNG to ICO Converter.
+* Added: SVG to PNG Converter.
+* Added: SVG to WebP Converter.
+* Added: SVG to JPG Converter.
+* Added: SVG to ICO Converter.
+* Added: JPG to ICO Converter.
+* Added: WebP to ICO Converter.
+* Added: ICO to JPG Converter.
+* Added: ICO to WebP Converter.
+* Added: HEIC to PNG Converter.
+* Added: HEIC to JPG Converter.
+* Added: HEIC to WebP Converter.
+* Added: TIFF to PNG Converter.
+* Added: TIFF to JPG Converter.
+* Added: Base64 to PNG Converter.
+* Added: Base64 to JPG Converter.
+* Added: Schema Visualizer.
+* Added: Site Crawler.
+* Added: Keyword Density Analyzer.
+* Added: Social Analytics.
+* Added: SEO Analyzer.
+* Added: Schema Generator.
+* Added: SERP Simulator.
+* Added: Hreflang Generator.
+* Added: Canonical Generator.
+* Added: Keyword Cloud & Density.
+* Added: Sitemap Visualizer.
+* Added: JSON-LD Validator.
+* Added: PWA Compatibility Check.
+* Added: AMP Validator.
+* Added: JSON-LD to Microdata Converter.
+* Added: PWA Manifest Generator.
+* Added: Security Headers Auditor.
+* Added: Security Auditor (WAF Detection).
+* Added: Safe Browsing Checker.
+* Added: Email Header Decoder.
+* Added: CSP Header Generator.
+* Added: Security.txt Generator.
+* Added: Google Dorking Assistant.
+* Added: IDN Punycode Detector.
+* Added: WebRTC Leak Test.
+* Added: CVE Lookup.
+* Added: SSH Config Generator.
+* Added: Subdomain Finder.
+* Added: HTTP Methods Auditor.
+* Added: AES Encryption & Decryption.
+* Added: Random Secret Key Generator.
+* Added: Browser Fingerprint Audit.
+* Added: DNS Leak Tester.
+* Added: JSON Viewer.
+* Added: Code Syntax Highlighter.
+* Added: Regex Tester.
+* Added: Cron Expression Generator.
+* Added: JSON to YAML Converter.
+* Added: YAML to JSON Converter.
+* Added: JSON to TSV Converter.
+* Added: TSV to JSON Converter.
+* Added: JWT Encoder & Decoder.
+* Added: Text Diff Checker.
+* Added: SRT to VTT Converter.
+* Added: VTT to SRT Converter.
+* Added: Whitespace Normalizer.
+* Added: Text to List Converter.
+* Added: AI Content Detector.
+* Added: AI Prompt Optimizer.
+* Added: Text to Speech.
+* Added: Grammar Checker.
+* Added: Invisible Text Generator.
+* Added: Sentence & Paragraph Counter.
+* Added: Line Numbers Helper.
+* Added: Text Line Joiner.
+* Added: Alphabetical Line Sorter.
+* Added: Markdown to Text Converter.
+* Added: Morse Code Converter.
+* Added: NATO Phonetic Converter.
+* Added: Text Line Wrapper.
+* Added: Braille Translator.
+* Added: Text to ASCII Art.
+* Added: Readability Score Calculator.
+* Added: Keyword Extractor.
+* Added: Text Similarity Checker.
+* Added: Fancy Text Generator.
+* Added: Handwriting Converter.
+* Added: Percentage Calculator.
+* Added: Loan EMI Calculator.
+* Added: Sales Tax Calculator.
+* Added: Binary Calculator.
+* Added: Password Entropy Calculator.
+* Added: Standard Deviation Calculator.
+* Added: Decimal to Fraction Calculator.
+* Added: Calorie Calculator.
+* Added: Tip Calculator.
+* Added: Time Duration Calculator.
+* Added: Aspect Ratio Calculator.
+* Added: Ohm's Law Calculator.
+* Added: Macronutrient Calculator.
+* Added: Electricity Cost Calculator.
+* Added: Pet Real Age Calculator.
+* Added: ASN Lookup.
+* Added: Traceroute Online.
+* Added: IP Blacklist Check.
+* Added: Email Blacklist Check.
+* Added: DNS Propagation Check.
+* Added: Website Technologies Check.
+* Added: Area Converter.
+* Added: Volume Converter.
+* Added: Power Converter.
+* Added: Pressure Converter.
+* Added: Pace Converter.
+* Added: Fuel Consumption Converter.
+* Added: Time Converter.
+* Added: Angle Converter.
+* Added: Torque Converter.
+* Added: Energy Converter.
+* Added: Frequency Converter.
+* Added: Voltage Converter.
+* Added: Current Converter.
+* Added: Illuminance Converter.
+* Added: Luminance Converter.
+* Added: Density Converter.
+* Added: Viscosity Converter.
+* Added: Capacitance Converter.
+* Added: Force Converter.
+* Added: Zodiac Sign Finder.
+* Added: Fake Identity Generator.
+* Added: Leet Speak Converter.
+* Added: English to Gen-Z Converter.
+* Fixed Other Minor Issues.
+
+v.1.91 (Hotfix)
+--------
+* QR Code Generator Tool Fixed.
+
+v.1.9 (Hotfix)
+--------
+* QR Code Generator Fixes.
+* Header RTL Settings Fixes.
+* Some CSS Fixes.
+* Language Translation Bug Fixes.
+
+v.1.9
+--------
+* Fixed There is Error in QR Code Generator section of vCard, Email , SMS we are not able to download QR code of these.
+* Fixed Compress images tool - it is working only with JPG, PNG is not getting compressed.
+* Fixed Missing "Enable this Tool" switch for Domain Generator in Admin Panel
+* Fixed Related Tools text and icon still visible, even when the option is disabled admin panel.
+* Added Length Converter
+* Added Speed Converter
+* Added Temperature Converter
+* Added Weight Converter
+* Added Countdown Timer
+* Added Stopwatch
+* Added HTML code editor / with live preview
+* Added Scientifc Calculator
+* Added Online clock (Time of All regions Names)
+* Added Wheel Color Picker
+* Added Virtual Coin Flip
+* Added Text Repeater
+* Added Date Picker/Calendar
+* Added Paste & Share Text Tool
+* Added Aim Trainer
+* Added Image Rotate
+* Added Image to Grayscale
+
+v.1.8
+--------
+* Added Quoted Printable Encode/Decode.
+* Added Open Port Checker.
+* Added Bulk Password Generator.
+* Added SMTP Tester.
+* Added DNS Lookup.
+* Added Random Text Line.
+* Added Base64 Text Encode/Decode.
+* Added SSL Checker.
+* Added JSON to XML.
+* Added JSON beautifier.
+* Added JSON Validator.
+* Added BMI Calculator.
+* Added Check GZIP Compression.
+* Added What is My Browser.
+* Added Download Button For Youtube Thumbnail.
+* Added Download Button For QR Code.
+* Added OG image settings in Admin panel General Settings.
+* Added Body tags support in Admin Panel General Settings.
+* Added Tool Search on Every page.
+* Fixed Image Converter Tools.
+* Fixed Header Theme Icon Color.
+* Fixed HTML to Markdown issue.
+* Fixed Sitemap Issue.
+* Fixed SEO Issues (Headings etc).
+* Fixed CSS background images Issue.
+* Overall Optimized The Code..
+
+v.1.7.1 Hot Fix
+--------
+* Two Fixes including incorrect sitemap generation and blog posting.
+
+v.1.7 Fixes & Improvements
+--------
+* Fixed an issue where the sitemap generated was invalid.
+* Fixed an issue with Image Conversion Tools where the downloaded file name would be incorrect
+
+v.1.6 Fixes & Improvements
+--------
+* Fixed an issue with symlinks on certain servers.
+(If you are not able to load images properly, Go to your Admin Panel -> Tools -> Click on the Symlink Generator)
+* Fixed an issue where images did not show properly on certain websites.
+* Fixed various quality of life & SEO bugs on the website.
+* Fixed an issue where JSON to CSV tool did not work properly.
+* Fixed various tools not working properly.
+* Fixed an issue where various links did not redirect to correct locations in the admin panel.
+* Various Performance Improvements all across the board.
+
+v1.5 SaaS Update
+--------
+* New SaaS Module to convert the website into a Software-as-a-Service platform.
+* New Stripe Payments Module. Collect Payments via Stripe.
+* New Authentication Module. Login, Signup, Social Login & Settings for Customers.
+* New automatic billing module. User subscriptions are managed automatically.
+* New Premium Only tools module. Choose which tools can be used by Free and Premium members.
+* Added Word Density Counter Tool
+* Added Image Compressor Tool
+* Added Image Resizer Tool
+* Added PNG to JPG Tool
+* Added JPG to PNG Tool
+* Added PNG to WEBP Tool
+* Added JPG to WEBP Tool
+* Added WEBP to PNG Tool
+* Added WEBP to JPG Tool
+* Added Memory / Storage Converter Tool
+* Added Credit Card Validator Tool
+* Added Twitter SEO Card Generator Tool
+* Added Text Replacer Tool
+* Added Case Converter Tool
+* Added Text to Slug Converter Tool
+* Added Text Reverser Tool
+* Added Random Number Generator Tool
+* Added URL Parser Tool
+* Added Unicode to Punycode (IDN) Converter Tool
+* Added Punycode to Unicode (IDN) Converter Tool
+* Added Redirect Checker Tool
+* Added Palindrome Checker Tool
+* Added Source Code Downloader Tool
+* Added ROT13 Encoder Tool
+* Added ROT13 Decoder Tool
+
+v1.4 SEO Tools Update
+--------
+* Added Privacy Policy Generator Tool
+* Added Terms of Service Generator Tool
+* Added Bulk Email Validator Tool
+* Added Robots.txt Generator Tool
+* Added HTACCESS Redirect Generator Tool
+* Added Blog Section
+* Fixed a crucial issue where certain MariaDB Servers would not work with the script.
+* Many Bugfixes
+* Performance Optimizations
+
+v1.3 Hotfix
+--------
+* Fixed an issue where certain server configurations were not able to connect to the database.
+* Fixed an issue where the YouTube Thumbnail Downloader did not work as intended.
+
+v1.3
+--------
+* Added SQL Formatter Tool
+* Added Password Strength Test Tool
+* Added IP Information Tool
+* Added URL Extractor Tool
+* Added E-Mail Extractor Tool
+* Added Line Break Removal Tool
+* Added Bcrypt Generator Tool
+* Added UUIDv4 Generator Tool
+* Added YouTube Thumbnail Downloader Tool
+* Added HTTP Status Code Checker Tool
+* Fixed a bug that prevented Word Counter from Working
+* Many Bug Fixes & Optimizations
+
+v1.2
+--------
+* Added Dark Theme.
+* Users can switch between Dark and Light Them.
+* Admin can set default theme between Dark and Light.
+* Add RTL Support
+* Add Sitemap Generator
+
+v1.1
+--------
+* Fixed an issue where some users could not switch the language.
+* Fixed an issue where certain servers could not process uploaded files.
+* Fixed an issue which prevented the Domain Generator tool to function properly.
+
+v1.0
+--------
+* Initial Release
