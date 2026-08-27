@@ -4,6 +4,13 @@
     "description": "Awesome Webtools for the Internet.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
+    "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ryangjchandler/filament-profile.git"
+    }
+  ],
+  "require": {
     "require": {
         "php": "^8.2",
         "ext-gd": "*",
